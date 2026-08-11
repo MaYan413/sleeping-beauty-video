@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鐫＄編浜烘柊缂?- 瑙嗛</title>
+    <title>睡美人新编 - 视频</title>
     <style>
         * {
             margin: 0;
@@ -22,7 +22,7 @@
             background-attachment: fixed;
         }
 
-        /* 瑁呴グ鎬ф槦鍏?*/
+        /* 装饰性星光 */
         body::before {
             content: "";
             position: fixed;
@@ -115,7 +115,7 @@
             outline: none;
         }
 
-        /* 鑷畾涔夎棰戞帶浠舵牱寮忚鐩栵紙浠?webkit 娴忚鍣級 */
+        /* 自定义视频控件样式覆盖（仅 webkit 浏览器） */
         video::-webkit-media-controls-panel {
             background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
         }
@@ -153,7 +153,7 @@
             color: rgba(220, 200, 220, 0.9);
         }
 
-        /* 绉诲姩绔€傞厤 */
+        /* 移动端适配 */
         @media (max-width: 640px) {
             .container {
                 padding: 24px 16px 20px;
@@ -181,31 +181,32 @@
 <body>
 
     <div class="container">
-        <!-- 鏍囬鍖?-->
+        <!-- 标题区 -->
         <div class="header">
-            <span class="icon">馃寵</span>
-            <h1>鐫＄編浜烘柊缂?/h1>
-            <p class="subtitle">Sleeping Beauty 路 A New Tale</p>
+            <span class="icon">🌙</span>
+            <h1>睡美人新编</h1>
+            <p class="subtitle">Sleeping Beauty · A New Tale</p>
         </div>
 
         <div class="divider"></div>
 
-        <!-- 瑙嗛鎾斁鍣?-->
+        <!-- 视频播放器 -->
         <div class="video-wrapper">
             <video controls playsinline preload="metadata" poster="">
                 <source src="https://github.com/MaYan413/sleeping-beauty-video/releases/download/v1.0/sleeping-beauty.mp4" type="video/mp4">
-                鎮ㄧ殑娴忚鍣ㄤ笉鏀寔 HTML5 瑙嗛鎾斁銆傝浣跨敤鐜颁唬娴忚鍣紙Chrome銆丒dge銆丼afari銆丗irefox锛夋墦寮€銆?            </video>
+                您的浏览器不支持 HTML5 视频播放。请使用现代浏览器（Chrome、Edge、Safari、Firefox）打开。
+            </video>
         </div>
 
-        <!-- 绠€浠嬪尯 -->
+        <!-- 简介区 -->
         <div class="description">
-            <p>鉁?涓€涓叧浜庣潯缇庝汉鐨勫叏鏂版晠浜?鉁?/p>
-            <p>鐐瑰嚮涓婃柟鎾斁鎸夐挳锛屽嵆鍙湪绾胯鐪?/p>
+            <p>✨ 一个关于睡美人的全新故事 ✨</p>
+            <p>点击上方播放按钮，即可在线观看</p>
         </div>
 
-        <!-- 搴曢儴 -->
+        <!-- 底部 -->
         <div class="footer">
-            <p>鍙湪鎵嬫満銆佸钩鏉裤€佺數鑴戜笂鐩存帴瑙傜湅 路 鏃犻渶涓嬭浇</p>
+            <p>可在手机、平板、电脑上直接观看 · 无需下载</p>
         </div>
     </div>
 
