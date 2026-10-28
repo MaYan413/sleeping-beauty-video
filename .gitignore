@@ -1,9 +1,10 @@
-# 绯荤粺鏂囦欢
+# 系统文件
 Thumbs.db
 .DS_Store
 Desktop.ini
 
-# 缂栬緫鍣?.vscode/
+# 编辑器
+.vscode/
 .idea/
 *.swp
 *.swo
